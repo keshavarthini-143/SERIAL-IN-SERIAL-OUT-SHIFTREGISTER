@@ -25,16 +25,13 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure:**
 
-1.Initialize the shift register to a known state (e.g., all zeros).
+1.Compile and run the program.
 
-2.Input a bit serially into the shift register.
+2.Generate the RTL schematic and save the logic diagram.
 
-3.Shift the contents of the register one position to the right (or left).
+3.Create nodes for inputs and outputs to generate the timing diagram.
 
-4.Output the shifted bit from the last stage of the register.
-
-5.Repeat steps 2-4 for each bit you want to input and shift.
-
+4.For different input 
 
 **PROGRAM:**
 
@@ -79,4 +76,5 @@ endmodule
 
 **RESULTS:**
 
- SISO Shift register using verilog and validating their functionality using their functional tables has successful execution of the program.
+ Thus the OUTPUT’s of 8-bit shift register are verified by synthesizing and simulating the VERILOG
+code.
